@@ -153,6 +153,6 @@ This simulates how real IIoT dashboards notify engineers through alarms.
 
 -   Machine learning anomaly detection.
 -   Predictive forecasting.
--   Multi-sensor scaling using MQTT or Kafka.
+-   Multi-sensor scaling using MQTT.
 -   Automated corrective actions.
 -   Cloud deployment.
