@@ -126,15 +126,15 @@ This simulates how real IIoT dashboards notify engineers through alarms.
 
 ### Create the database table
 
-    psql -U postgres -d IIOT_PROJECT -f database/create_tables.sql
+    psql -U postgres -d IIOT_PROJECT -f create_tables.sql
 
 ### Start the simulator
 
-    python simulator/simulator.py
+    python simulator.py
 
 ### Start the dashboard
 
-    streamlit run dashboard/streamlit_app.py
+    streamlit run streamlit_app.py
 
 ------------------------------------------------------------------------
 
